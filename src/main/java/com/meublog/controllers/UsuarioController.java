@@ -25,7 +25,7 @@ public class UsuarioController {
 	@Autowired
 	private UsuarioService usuarioService; 
 	
-	@PostMapping("/logar")
+	@PostMapping("/entrar")
 	public ResponseEntity<UserLogin> Autentication(@RequestBody Optional<UserLogin> user) {
 		return usuarioService.Logar(user).map(usuarioExistente -> ResponseEntity.ok(usuarioExistente))
 				.orElse(ResponseEntity.status(401).build()); 
