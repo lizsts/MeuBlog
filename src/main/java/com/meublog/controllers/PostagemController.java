@@ -1,4 +1,4 @@
-package com.exercicio.meublog.Controllers;
+package com.meublog.controllers;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.exercicio.meublog.Models.Postagem;
-import com.exercicio.meublog.Repositories.PostagemRepository;
+import com.meublog.models.Postagem;
+import com.meublog.repositories.PostagemRepository;
 
 @RestController
 @RequestMapping("/postagens")

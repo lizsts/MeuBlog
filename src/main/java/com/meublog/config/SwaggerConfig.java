@@ -1,4 +1,4 @@
-package com.exercicio.meublog.Config;
+package com.meublog.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,7 +19,7 @@ public class SwaggerConfig {
 	public Docket docket( ) { 
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.exercicio.meublog.Controllers"))
+				.apis(RequestHandlerSelectors.basePackage("com.meublog.controllers"))
 				.paths(PathSelectors.any())
 				.build( )
 				.apiInfo(apiInfo( )); 
@@ -27,13 +27,13 @@ public class SwaggerConfig {
 		private ApiInfo apiInfo( ) {
 			return new ApiInfoBuilder( ) 
 					.title("Meu blog")
-					.description("API do projeto para heroku")
+					.description("Projeto de rede social - blog pessoal")
 					.version("1.0")
 					.contact(contact())
 					.build( ); 
 		}
 		
 		private Contact contact( ) {
-			return new Contact("Liz Santos", "https://github.com/lizsts", "nao sei o que to fazendo"); 
+			return new Contact("Liz Santos", "https://github.com/lizsts", "lizandrast@outlook.com"); 
 		}
 	}

@@ -1,4 +1,4 @@
-package com.exercicio.meublog.Controllers;
+package com.meublog.controllers;
 
 import java.util.Optional;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.exercicio.meublog.Models.UserLogin;
-import com.exercicio.meublog.Models.Usuario;
-import com.exercicio.meublog.Service.UsuarioService;
+import com.meublog.models.UserLogin;
+import com.meublog.models.Usuario;
+import com.meublog.services.UsuarioService;
 
 import io.swagger.annotations.Api;
 

@@ -1,4 +1,4 @@
-package com.exercicio.meublog.Security;
+package com.meublog.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

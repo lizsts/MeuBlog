@@ -1,4 +1,4 @@
-package com.exercicio.meublog.Service;
+package com.meublog.services;
 
 import java.nio.charset.Charset;
 import java.util.Optional;
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.exercicio.meublog.Models.UserLogin;
-import com.exercicio.meublog.Models.Usuario;
-import com.exercicio.meublog.Repositories.UsuarioRepository;
+import com.meublog.models.UserLogin;
+import com.meublog.models.Usuario;
+import com.meublog.repositories.UsuarioRepository;
 
 @Service
 public class UsuarioService {

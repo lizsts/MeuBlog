@@ -1,4 +1,4 @@
-package com.exercicio.meublog.Models;
+package com.meublog.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

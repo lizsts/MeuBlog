@@ -1,4 +1,4 @@
-package com.exercicio.meublog.Models;
+package com.meublog.models;
 
 import java.util.List;
 

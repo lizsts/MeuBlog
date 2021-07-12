@@ -13,7 +13,7 @@
 	<artifactId>meublog</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>meublog</name>
-	<description>Segunda vez sofrendo em spring</description>
+	<description>Blog pessoal da Liz</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -55,11 +55,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<version>42.2.12</version>
 		</dependency>
 		<dependency>
 			<groupId>io.springfox</groupId>
